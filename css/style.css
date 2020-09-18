@@ -1,0 +1,896 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+  100: Thin
+  300: Light
+  400: Regular
+  600: Semibold
+  700: Bold
+  900: Extra-bold
+*/
+/*------------------------------------ Setup */
+a {color:#272727;text-decoration: none; outline: none; -moz-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;-webkit-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out;}
+a:hover,a:focus{color:#000000;text-decoration: none; outline: none;}
+a:active { outline: none; }
+
+/*------------------------------------ Box Header */
+.block-header-top {
+    background: #ffe6ce;
+}
+.header-contact {
+    display: flex;
+    float: right;
+    list-style: none;
+    margin: 10px 0;
+}
+.header-contact li {
+    padding: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+.header-contact li strong {
+    color: #525252;
+}
+.header-contact li > a {
+    padding: 0 2px;
+}
+.wsmobileheader .smllogo img {
+    width: 50px;
+}
+.wsmenu>.wsmenu-list>li>a {
+    text-shadow: 1px 2px #fff;
+}
+.wsmenu>.wsmenu-list>li:hover {
+    background: #ffdab6;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,0.5);
+    transition: .5s all ease-in-out;
+}
+/* ------------------------------------Block-Header-Bottom-------------------- */
+.header-bottom {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.header-bottom .header-bottom-banner {
+    padding: 0 20px;
+}
+.header-bottom .header-bottom-contact .systems {
+    font-family: 'Montserrat', sans-serif;
+    color: #037276;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+.header-bottom .header-bottom-contact .travel-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #037276;
+}
+/* ---------------------------------------Menu---------------------------------- */
+.block-header-bottom--navigation {
+    background: #ffefde;
+}
+/* ------------------------------------Banner-Slide------------------------------------ */
+.slides .slide-img img {
+    width: 100%;
+}
+.slides .slick-next {
+    right: 20px;
+}
+.slides .slick-prev {
+    left: 20px;
+}
+.slides .slick-prev, .slick-next {
+    background: transparent;
+}
+.slide .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    background: transparent;
+}
+.box-banner {
+    position: relative;
+}
+.advertise-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 7.69%;
+    z-index: 99;
+}
+.advertise-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 7.69%;
+    z-index: 99;
+}
+/* --------------------------------Logo-Slide------------------------------- */
+.logo-slide h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #2782d2;
+    font-size: 30px;
+    margin: 40px 0;
+    text-align: center;
+}
+.logo-slide-top {
+    margin-bottom: 40px;
+}
+.logo-slide .logo-slide-top img {
+    padding: 0 35px;
+    -webkit-filter: grayscale(1);
+}
+.logo-slide .logo-slide-top a:hover img {
+    -webkit-filter: grayscale(0);
+    transition: .5s all ease-in-out;
+}
+/* --------------------------------Introduce------------------------------- */
+.introduce {
+    background-image: url(../images/introduce.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 45px;
+}
+.introduce .introduce-contact {
+    padding-top: 71px ;
+    font-family: 'Montserrat', sans-serif;
+}
+.introduce .introduce-contact h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #408cd5;
+}
+.introduce .introduce-contact h6 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #408cd5;
+}
+.introduce .introduce-contact .contact-p {
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    color: #231f20;
+    font-size: 14px;
+    font-weight: 600;
+}
+.introduce .introduce-contact .contact-p strong {
+    color: #ee8e22;
+}
+.introduce .introduce-contact .contacts-p {
+    margin-bottom: 40px;
+    color: #231f20;
+    font-size: 14px;
+    font-weight: 600;
+}
+.introduce .introduce-contact a {
+    background-color: #408cd5;
+    padding: 15px 35px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.introduce .introduce-contact a:hover {
+    background: #771138;
+    transition: .5s all ease;
+}
+/* -------------------------------------Main-Area--------------------------------- */
+.main-area {
+    font-family: 'Montserrat', sans-serif;
+    background: #f8f8f8;
+}
+.main-area .main-area-top {
+    text-align: center;
+}
+.main-area .main-area-top h3 {
+    color: #67c9de;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+.main-area .main-area-top h6 {
+    color: #67c9de;
+    font-size: 15px;
+    font-weight: 600;
+}
+.main-area-bottom {
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.main-area-bottom .dentistry {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    opacity: 0.8;
+    background: #fff;
+    color: #18436d;
+    font-size: 16px;
+    font-weight: 800;
+    width: 96%;
+    padding: 10px 0;
+}
+.main-area-bottom .dentistry:hover{
+    color: #771138;
+}
+.main-area .main-area-bottom img {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 6px solid #ffdebf;
+    border-radius: 50%;
+}
+/* ---------------------------------------News-------------------------- */
+.news-header {
+    text-align: center;
+    margin: 40px 0 50px;
+}
+.news-header h3 {
+    color: #67c9de;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.news-header h6 {
+    color: #67c9de;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.news-left-content {
+    margin-top: 15px;
+}
+.news-left-content h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.news-left-content h4 a {
+    color: #771138;
+}
+.news-left-content h4 a:hover {
+    color: #2782d2;
+}
+.news-left-content p {
+    color: #363636;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.news-left .news-left-img:hover+.news-left-content h4 a {
+    color: #2782d2;
+}
+.news-left-img img {
+    width: 100%;
+}
+ .news-center p a:hover {
+    color: #2782d2;
+}
+.news-center-img a:hover img {
+    color: #2782d2;
+}
+.news-center {
+    margin:0 0 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.news-center .news-center-img:hover+.news-center-content p a {
+    color: #2782d2;
+}
+.news-center .news-center-border {
+    border-bottom: 1px solid #cbcbcb;
+}
+.news-center .news-center-img {
+    float: left;
+    width: 46%;
+    margin: 0 0 10px;
+}
+.news-center .news-center-img a:hover {
+    color: #2782d2;
+}
+.news-center .news-center-content {
+    float: left;
+    width: 51%;
+}
+.news-center .news-center-clear {
+    clear: left;
+}
+.news-center p {
+    font-size: 13px;
+    color: #363636;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    /* height: 75px; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.news-right img {
+    width: 100%;
+}
+/* ---------------------------------------System---------------------------- */
+.system {
+    background-image: url(../images/system.png);
+    background-size: cover;
+    background-color: #f8f8f8;
+    margin-top: 35px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0 2rem;
+}
+.system-top {
+    text-align: center;
+    padding: 35px 0;
+}
+.system-top h4 {
+    color: #67c9de;
+    font-size: 30px;
+    font-weight: 700;
+}
+.system-top h6 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #67c9de;
+}
+.system-bottom {
+    margin: 0 auto;
+    display: table;
+}
+
+.system-bottom div {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.system-bottom div a {
+    color: #247182;
+}
+
+/* -------------------------------------------Travel-Service-------------------- */
+.travel-top {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 80px 0 40px;
+}
+.travel-top h4 {
+    color: #45abba;
+    font-size: 30px;
+    font-weight: 700;
+}
+.travel-top h6 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #45abba;
+}
+.travel-bottom {
+    margin: 0;
+    padding: 0 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+.travel-names {
+    background: #ffd9b3;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow:hidden;
+}
+.travel-names .travel-name-1 {
+    position: relative;
+    font-size: 75px;
+    font-weight: 800;
+    color: #fff;
+    font-style: italic;
+    padding: 100px 0;
+    cursor: pointer;
+}
+.travel-names:hover .travel-name-1,.travel-names:hover .travel-name-2 {
+    top: 10%;
+    transition: .5s all ease;
+}
+.travel-names .travel-name-2 {
+    position: absolute;
+    top: 90px;
+    font-size: 75px;
+    font-weight: 800;
+    color: #408cd5;
+    font-style: italic;
+    cursor: pointer;
+}
+.travel-content {
+    background: #fafafa;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 45px;
+    cursor: pointer;
+}
+.travel-content:hover {
+    background: #2782d2;
+    transition: .5s all ease-in-out;
+}
+.travel-content:hover h5, .travel-content:hover p, .travel-content:hover a {
+    color: #fff;
+}
+.travel-content h5,.item-travel .travel-content-1 h5 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 800;
+    font-style: italic;
+}
+.travel-content p,.travel-content-1 p {
+    margin: 0 0;
+    margin-top: 10px;
+}
+.travel-content a,.travel-content-1 a {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 20px;
+}
+.travel-content a > span,.item-travel .travel-content-1 a > span {
+    color: #ff0000;
+}
+.travel-content a:hover,.item-travel .travel-content-1 a:hover {
+    color: #771138 !important;
+}
+.travel-content-1 {
+    background: #fafafa;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 45px;
+    text-align: right;
+    cursor: pointer;
+}
+.item-travel .travel-content-1:hover {
+    background: #2782d2;
+    transition: .5s all ease-in-out;
+}
+.item-travel .travel-content-1:hover h5, .item-travel .travel-content-1:hover p, .item-travel .travel-content-1:hover a {
+    color: #fff;
+}
+.item-travel .travel-name-entertainment {
+    background: #408cd5;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-travel .travel-name-entertainment .travel-name-entertainment-1 {
+    position: relative;
+    font-size: 75px;
+    font-weight: 800;
+    color: #5a5555;
+    font-style: italic;
+    padding: 100px 0;
+    cursor: pointer;
+
+}
+.item-travel .travel-name-entertainment .travel-name-entertainment-2 {
+    position: absolute;
+    top: 90px;
+    font-size: 75px;
+    font-weight: 800;
+    color: #ffd8b3;
+    font-style: italic;
+    cursor: pointer;
+}
+.travel-name-entertainment:hover .travel-name-entertainment-1,.travel-name-entertainment:hover .travel-name-entertainment-2 {
+    top: 10%;
+    transition: .5s all ease-in-out;
+}
+.item-travel .travel-img img {
+    width: 100%;
+}
+.item-travel .travel-img img:hover {
+    transform: scale(1.035) rotate(.05deg);
+    transition: .3s all linear;
+}
+/* ----------------------------------------Order-Travel----------------------- */
+.item-travel:nth-child(3n+2) .travel-bottom:nth-child(1){
+    order: 1;
+}
+.item-travel:nth-child(3n+2) .travel-bottom:nth-child(2){
+    order: 1;
+}
+.item-travel:nth-child(3n+3) .travel-bottom:nth-child(1){
+    order: 1;
+}
+/* ------------------------------------Footer---------------------------- */
+.block-header-bottom-footer {
+    margin: 60px 0 20px;
+}
+.footer-content {
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-content p {
+    color: #231f20;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.footer-content p strong {
+    color: #67c9de;
+    font-weight: 700;
+}
+.footer-content .footer-border {
+    border-bottom: 1px dotted #eeeeee;
+    width: 92%;
+    margin: 0 auto;
+    display: table;
+    color: #eeeeee;
+}
+/* -------------------------------------Footer-Contact------------------------------------------- */
+.footer-contact-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer-contact-content {
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-contact-content ul {
+    list-style: none;
+    text-align: right;
+    font-size: 13px;
+    position: relative;
+    left: -135px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-contact-content ul li h5 {
+    color: #d32127;
+    font-size: 14px;
+    font-weight: 800;
+}
+.footer-contact-content ul li .address {
+    color: #a2a2a3;
+    font-weight: 600;
+}
+.footer-contact-content ul li a {
+    color: #d32127;
+    font-weight: 700;
+}
+.footer-contact-content ul li i {
+    color: #7b7b7c;
+}
+/*------------------------------------ Monitor Ipad Portrial */
+@media only screen and (max-width: 1024px){
+    .travel-name .travel-name-1 {
+        font-size: 50px;
+        padding: 0;
+    }
+    .item-travel .travel-name-entertainment .travel-name-entertainment-1 {
+        font-size: 40px;
+        padding: 0;
+    }
+    .travel-name .travel-name-2 {
+        font-size: 50px;
+        top: 80px;
+    }
+    .item-travel .travel-name-entertainment .travel-name-entertainment-2 {
+        font-size: 40px;
+        top: 88px;
+    }
+    .travel-content {
+        font-size: 13px;
+    }
+    .travel-content-1 {
+        font-size: 13px;
+    }
+    .travel-content h5, .item-travel .travel-content-1 h5 {
+        font-size: 15px;
+    }
+    .news-center .news-center-img {
+        width: 30%;
+    }
+}
+/*------------------------------------ Monitor Ipad Portrial */
+@media (max-width: 780px){
+    .footer-contact-content ul {
+        left: -60px;
+    }
+    .travel-name .travel-name-1 {
+        font-size: 40px;
+        padding: 0;
+    }
+    .travel-name .travel-name-2 {
+        font-size: 40px;
+        top: 58px;
+    }
+    .travel-content {
+        font-size: 11px;
+        padding-left: 20px;
+    }
+    .travel-content-1 {
+        font-size: 11px;
+        padding-right: 15px;
+    }
+    .travel-content h5, .item-travel .travel-content-1 h5 {
+        font-size: 15px;
+    }
+    .item-travel .travel-name-entertainment .travel-name-entertainment-1 {
+        font-size: 40px;
+        padding: 0;
+    }
+    .item-travel .travel-name-entertainment .travel-name-entertainment-2 {
+        font-size: 40px;
+        top: 55px;
+    }
+    .advertise-left img {
+        display: none;
+    }
+    .advertise-right img {
+        display: none;
+    }
+    .block-header-bottom-footer {
+        margin: 25px 0 20px;
+    }
+    .travel-top {
+        margin: 20px 0;
+    }
+    .main-area .main-area-top h3 {
+        padding-top: 20px;
+    }
+    .main-area .main-area-top h6 {
+        padding-bottom: 0;
+    }
+    .news-header {
+        margin: 20px 0;
+    }
+    .wsmobileheader {
+        background-color: #ffdab6;
+    }
+    .block-header-top {
+        padding-top: 55px;
+    }
+    .header-contact li {
+        font-size: 10px;
+    }
+    .news-center p {
+        margin-left: 10px;
+    }
+    .wsmenu-list {
+        padding: 0;
+    }
+    .header-bottom {
+        display: none;
+    }
+    .wsmobileheader {
+        display: flex;
+    }
+    .box-blocks .block-systems {
+        color: #036e72;
+        font-weight: 800;
+    }
+    .box-blocks .block-travel {
+        color: #036e72;
+        font-weight: 600;
+    }
+    /* ----------------------Order------------------------- */
+    .item-travel:nth-child(3n+2) .travel-bottom:nth-child(1){
+        order: 1;
+    }
+    .item-travel:nth-child(3n+2) .travel-bottom:nth-child(2){
+        order: 1;
+    }
+    .item-travel:nth-child(3n+3) .travel-bottom:nth-child(1){
+        order: 1;
+    }
+}
+/*------------------------------------ Monitor Mobile Landspace */
+@media screen and (min-width: 576px) and (max-width: 767px){
+
+}
+/*------------------------------------ Monitor Mobile Portrial */
+@media (max-width: 414px){
+    .wsmenu-list {
+        padding: 0;
+    }
+    .slick-prev:before {
+        color: #ffffff;
+    }
+    .slick-next:before {
+        color: #ffffff;
+    }
+    .header-contact {
+        display: block;
+        float: none;
+        margin: 10px 0;
+    }
+    .header-contact li {
+        font-size: 9px;
+        padding: 5px 0;
+        text-align: center;
+    }
+    .logo-slide h4 {
+        margin: 15px 0;
+    }
+    .logo-slide-top {
+        margin-bottom: 10px;
+    }
+    .introduce .introduce-contact {
+        padding-top: 20px;
+    }
+    .introduce .introduce-contact .contact-p {
+        margin: 10px 0;
+    }
+    .introduce .introduce-contact .contacts-p {
+        margin-bottom: 25px;
+    }
+    .advertise-left { 
+        position: absolute;
+        top: 152px;
+        left: 0;
+        z-index: 99;
+    }
+    .advertise-left img {
+        display: none;
+    }
+    .advertise-right img {
+        display: none;
+    }
+    .header-bottom .header-bottom-contact .systems {
+        font-size: 20px;
+    }
+    .header-bottom .header-bottom-contact .travel-header {
+        font-size: 11px;
+    }
+    .main-area .main-area-top h3 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .main-area .main-area-top h6 {
+        padding: 0;
+    }
+    .news-header {
+        margin: 15px;
+    }
+    .news-left-img img {
+        width: 100%;
+    }
+    .news-right img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .news-left-content {
+        margin-top: 10px;
+    }
+    .introduce {
+        background-position: right;
+    }
+ 
+    .system {
+        margin-top: 20px;
+    }
+    .system-top {
+        padding: 20px 0;
+    }
+    .travel-name-entertainment {
+        position: relative;
+        bottom: 10px;
+    }
+    .block-header-bottom-footer {
+        margin: 20px 0;
+    }
+    .footer-contact-content ul {
+        text-align: start;
+        position: static;
+        font-size: 12px;
+    }
+    .footer-contact-img {
+        margin-top: 0;
+    }
+    .wsmobileheader {
+        background-color: #ffdab6;
+    }
+    .block-header-top {
+        padding-top: 45px;
+    }
+    .news-center .news-center-img {
+        width: 43%;
+    }
+    .news-center p {
+        font-size: 13px;
+    }
+    .item-travel .travel-name-entertainment .travel-name-entertainment-1 {
+        font-size: 60px;
+        padding: 100px 0;
+    }
+    .travel-content {
+        padding: 80px 30px;
+    }
+    .travel-content-1 {
+        padding: 80px 45px;
+    }
+ 
+    .item-travel .travel-name-entertainment .travel-name-entertainment-2 {
+        font-size: 60px;
+        top: 80px;
+    }
+    .travel-name .travel-name-1 {
+        padding: 100px 0;
+    }
+    .travel-name .travel-name-2 {
+        top: 80px;
+    }
+    .system-bottom div {
+        font-size: 12px;
+    }
+
+    /* -----------------------------Order--------------------- */
+    .item-travel:nth-child(n) .travel-bottom:nth-child(1){
+        order:1;
+    }
+    .item-travel:nth-child(n) .travel-bottom:nth-child(2){
+        order: 2;
+    }
+    .item-travel:nth-child(n) .travel-bottom:nth-child(3){
+        order: 3;
+    }
+    
+}
+@media (max-width: 360px) {
+    .news-center p {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .travel-names .travel-name-1 {
+        font-size: 60px;
+    }
+    .travel-names .travel-name-2 {
+        font-size: 60px;
+    }
+}
+@media (min-width: 1200px) {  
+    .container{
+      max-width: 1150px;
+    }
+    .col-xl-20 {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    /* .col-sm-20 {
+        -ms-flex: 0 0 calc(100%/5);
+        flex: 0 0 calc(100%/5);
+        max-width: calc(100%/5);
+    } */
+    /* .col-xl-20 {
+        -ms-flex: 0 0 calc(100%/5);/cach tinh chia 5 cot
+        flex: 0 0 20%;
+        max-width: 20%;
+    } */
+  }
+  @media (min-width: 768px){
+  
+  }
+  @media (min-width: 992px) {
+    
+}
